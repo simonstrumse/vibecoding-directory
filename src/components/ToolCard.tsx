@@ -9,7 +9,7 @@ interface ToolCardProps {
   logo: string;
 }
 
-const ToolCard: React.FC<ToolCardProps> = ({ id, name, description, url, category, logo }) => {
+const ToolCard: React.FC<ToolCardProps> = ({ name, description, url, category }) => {
   return (
     <a
       href={url}
